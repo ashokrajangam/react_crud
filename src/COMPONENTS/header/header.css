@@ -1,0 +1,38 @@
+.header {
+    background-color: #fff;
+    border: 1px solid red;
+    width: 100%;
+    height:50px;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+#mainMenu {
+    margin: 10px;
+	width: 900px;
+	font-family: sans-serif;
+}
+
+#mainMenu li {
+	display:block;
+	width:120px;
+	float:right;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
+
+#mainMenu a:hover,
+#mainMenu a.active {
+	background-color:#009;
+	color:#fff;
+}
