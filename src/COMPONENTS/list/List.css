@@ -1,0 +1,79 @@
+#users {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+#users td{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+#users td, #users th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#users tr:nth-child(even){background-color: #f2f2f2;}
+
+#users tr:hover {background-color: #ddd;}
+
+#users th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #4CAF50;
+color: white;
+}
+
+.btn {
+border: 2px solid black;
+background-color: white;
+color: black;
+padding: 14px 14px;
+font-size: 10px;
+cursor: pointer;
+}
+
+/* Green */
+.success {
+border-color: #4CAF50;
+color: green;
+}
+
+.success:hover {
+background-color: #4CAF50;
+color: white;
+}
+
+/* Blue */
+.info {
+border-color: #2196F3;
+color: dodgerblue;
+}
+
+.info:hover {
+background: #2196F3;
+color: white;
+}
+
+/* Red */
+.danger {
+border-color: #f44336;
+color: red;
+}
+
+.danger:hover {
+background: #f44336;
+color: white;
+}
+
+/* Gray */
+.default {
+border-color: #e7e7e7;
+color: black;
+}
+
+.default:hover {
+background: #e7e7e7;
+}
